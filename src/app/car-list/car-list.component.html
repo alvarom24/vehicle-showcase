@@ -1,0 +1,32 @@
+<div class="cs-car-filter">
+    <div class="cs-retunr-actions" (click)="compare()">
+        <span>Compare up to 3 vehicles</span>
+    </div>
+    <div class="cs-filter-wrapper">
+        <span>Filter your favorite brand:</span>
+        <select name="selectBrand" (change)="filterChange
+        ($event.target.value)" ([ngModel])="selectedFilter">
+            <option value="">All</option>
+            <option *ngFor="let brand of filterList" [value]="brand">{{brand}}<option>
+    </select>
+    </div>
+</div>
+<div class="cs-car-container" *ngFor="let brand of carList">
+    <div class="cs-brand">
+        <h1>{{brand.brand}}</h1>
+    </div>
+    <div class="cs-car-list-container">
+        <div class="cs-car-item" *ngFor="let car of brand.cars">
+            <div class="cs-car-image">
+                <img [src]="car.photo ? car.photo : '../../../assets/images/default.jpg'">
+            </div>
+            <div class="cs-car-description">
+                <h2>{{car.model}} - {{car.brand}} - {{car.year}}</h2>
+                <p>{{car.price | currency:'COP'}}</p>
+            </div>
+            <div class="cs-button-details-container">
+                <button type="button" (click)="onViewDetails(car.id)">View Details</button>
+            </div>
+        </div>
+    </div>
+</div>

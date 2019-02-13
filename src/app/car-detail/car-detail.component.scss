@@ -1,0 +1,60 @@
+@import "~variables.scss";
+.cs-car-detail-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.cs-car-photo-gallery {
+    border: 2px solid $divider-color;
+    padding: 10px;
+    width: 793px;
+    .cs-car-info {
+        color: $primary-text-color;
+        p {
+            color: $secondary-text-color;
+        }
+    }
+    .cs-car-main {
+        text-align: center;
+        img {
+            width: 430px;
+            height: 350px;
+        }
+    }
+    .cs-car-gallery {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        overflow-x: scroll;
+        margin: 0 auto;
+        .cs-gallery-item {
+            border: 2px solid $divider-color;
+            margin-left: 5px;
+            cursor: pointer;
+            padding: 10px;
+            img {
+                width: 187px;
+                height: 125px;
+            }
+        }
+    }
+}
+
+.cs-car-features {
+    padding: 30px;
+    color: $primary-text-color;
+    border-bottom: 2px solid $divider-color;
+    margin-left: 20px;
+    p {
+        color: $secondary-text-color;
+    }
+    .cs-car-options {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            border-bottom: 2px solid $divider-color;
+            text-align: left;
+        }
+    }
+}

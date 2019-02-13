@@ -1,0 +1,99 @@
+@import "~variables.scss";
+.cs-comparison-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    .cs-cars,
+    .cs-container-wrapper {
+        height: 600px;
+        padding: 40px;
+    }
+    .cs-container-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+        border: 2px solid $divider-color;
+    }
+    .cs-selected-cars-container {
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        background: $divider-color;
+        justify-content: center;
+        .cs-car-item {
+            text-align: center;
+            margin-left: 4px;
+            color: $primary-text-color;
+            cursor: pointer;
+            img {
+                width: 259px;
+                height: 194px;
+            }
+            .cs-car-features {
+                padding: 30px;
+                color: $primary-text-color;
+                border-bottom: 2px solid $divider-color;
+                margin-left: 20px;
+                p {
+                    color: $secondary-text-color;
+                    text-align: center;
+                }
+                .cs-car-options {
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                    p {
+                        border-bottom: 2px solid $divider-color;
+                    }
+                }
+            }
+        }
+        .cs-text-drag {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 18px;
+            color: $secondary-text-color;
+        }
+    }
+    .cs-cars {
+        width: 30%;
+        border: 2px solid $divider-color;
+        overflow-y: scroll;
+        .cs-car-list {
+            .cs-car-item {
+                text-align: center;
+                cursor: pointer;
+                img {
+                    width: 259px;
+                    height: 194px;
+                }
+            }
+        }
+        .cs-filter-wrapper {
+            display: flex;
+            margin-bottom: 10px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid $divider-color;
+            span {
+                color: $primary-text-color;
+                margin-right: 5px;
+            }
+        }
+    }
+    .cs-icon {
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: $primary-color-light;
+            font-size: 30px;
+        }
+    }
+}

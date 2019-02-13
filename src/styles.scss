@@ -1,0 +1,16 @@
+@import "~variables.scss";
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+.cs-retunr-actions {
+    background: $primary-button-color;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: $primary-color-text;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,76 @@
+@import "~variables.scss";
+.cs-car-filter {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .cs-filter-wrapper {
+        display: flex;
+        width: 380px;
+        justify-content: space-between;
+        span {
+            color: $primary-text-color;
+        }
+    }
+    select {
+        width: 150px;
+        position: relative;
+        right: 40px;
+    }
+}
+
+.cs-car-container {
+    .cs-brand {
+        background: $accent-color;
+        border-bottom: 4px solid $primary-color;
+    }
+}
+
+.cs-car-list-container {
+    color: $primary-text-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .cs-car-item {
+        width: 340px;
+        overflow: hidden;
+        border: 2px solid $divider-color;
+        padding: 10px 30px;
+        margin-left: 10px;
+        margin-top: 40px;
+        position: relative;
+        &:hover {
+            border-bottom: 4px solid $primary-color;
+            div.cs-button-details-container {
+                display: block;
+            }
+        }
+        .cs-car-image {
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 250px;
+        }
+        .cs-car-description {
+            text-align: center;
+        }
+        .cs-button-details-container {
+            position: absolute;
+            left: 31%;
+            top: 50%;
+            display: none;
+            button {
+                width: 130px;
+                background: $primary-color;
+                border: none;
+                height: 26px;
+                border-radius: 6px;
+                cursor: pointer;
+                color: $primary-color-text;
+                font-size: 12px;
+            }
+        }
+    }
+}

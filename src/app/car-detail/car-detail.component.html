@@ -1,0 +1,30 @@
+
+<div class="cs-retunr-actions" (click)="returnToList()">
+   <span>Retunr to list</span>
+</div>
+<div class="cs-car-detail-container" *ngIf="isShowingCar">
+    <div class="cs-car-photo-gallery">
+        <div class="cs-car-info">
+            <h2>{{carData.model}} - {{carData.brand}} - {{carData.year}}</h2>
+            <p>{{carData.price | currency:'COP'}}</p>
+        </div>
+        <div class="cs-car-main">
+            <img [src]="selectedPhoto">
+        </div>
+        <div class="cs-car-gallery">
+            <div class="cs-gallery-item" *ngFor="let photo of carData.gallery" (click)="changeSelectedPhoto(photo)">
+                <img [src]="photo">
+            </div>
+        </div>
+    </div>
+    <div class="cs-car-features">
+        <h3>{{carData.brand}} / {{carData.model}}</h3>
+        <div class="cs-car-options">
+            <p><strong>kms:</strong> {{carData.kms}}</p>
+            <p><strong>Horse Power:</strong> {{carData.horsePower}}</p>
+            <p><strong>Number of seats:</strong> {{carData.seats}}</p>
+            <p><strong>Space for bags:</strong> {{carData.bagSpace}}</p>
+        </div>
+        <p>{{carData.features}}</p>
+    </div>
+</div>

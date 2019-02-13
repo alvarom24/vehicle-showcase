@@ -1,0 +1,55 @@
+<div class="cs-retunr-actions" (click)="returnToList()">
+    <span>Retunr to list</span>
+ </div>
+<div class="cs-comparison-container">
+    <div class="cs-cars">
+        <div class="cs-filter-wrapper">
+            <span>Filter: </span>
+            <select name="selectBrand" (change)="filterChange
+            ($event.target.value)" ([ngModel])="selectedFilter">
+                <option value="">All</option>
+                <option *ngFor="let brand of filterList" [value]="brand">{{brand}}<option>
+        </select>
+        </div>
+        <div class="cs-car-list" *ngFor="let brand of carList">
+            <div class="cs-car-item" *ngFor="let car of brand.cars" draggable="true" (dragstart)="onDragStart($event, car)" (drop)="onReturnCar($event)" (dragover)="allowDrop($event)">
+                <div class="cs-car-image">
+                    <img [src]="car.photo ? car.photo : '../../../assets/images/default.jpg'">
+                </div>
+                <div class="cs-car-description">
+                    <h2>{{car.model}} - {{car.brand}} - {{car.year}}</h2>
+                    <p>{{car.price | currency:'COP'}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cs-icon">
+        <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+        <i class="fa fa-arrows-h" aria-hidden="true"></i>
+    </div>
+    <div class="cs-container-wrapper">
+        <div class="cs-selected-cars-container" (drop)="onDrop($event)" (dragover)="allowDrop($event)">
+            <div class="cs-text-drag" *ngIf="listToCompare.length === 0">
+                <h2>Drag your selection here!</h2>
+            </div>
+            <div class="cs-car-item" *ngFor="let car of listToCompare" draggable="true" (dragstart)="onDragStart($event, car)">
+                <div class="cs-car-image">
+                    <img [src]="car.photo ? car.photo : '../../../assets/images/default.jpg'">
+                </div>
+                <div class="cs-car-description">
+                    <h2>{{car.model}} - {{car.brand}} - {{car.year}}</h2>
+                    <p>{{car.price | currency:'COP'}}</p>
+                </div>
+                <div class="cs-car-features">
+                    <h3>{{car.brand}} / {{car.model}}</h3>
+                    <div class="cs-car-options">
+                        <p><strong>kms:</strong> {{car.kms}}</p>
+                        <p><strong>Horse Power:</strong> {{car.horsePower}}</p>
+                        <p><strong>Number of seats:</strong> {{car.seats}}</p>
+                        <p><strong>Space for bags:</strong> {{car.bagSpace}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

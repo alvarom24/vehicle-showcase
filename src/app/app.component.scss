@@ -1,0 +1,12 @@
+@import "~variables.scss";
+.cs-header {
+    color: $primary-color;
+    border-bottom: 1px solid $divider-color;
+    text-align: center;
+}
+
+.cs-footer {
+    color: $primary-color;
+    border-top: 1px solid $divider-color;
+    text-align: center;
+}

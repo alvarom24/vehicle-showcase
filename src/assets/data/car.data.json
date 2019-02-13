@@ -1,0 +1,289 @@
+[{
+        "id": 0,
+        "photo": "../assets/images/vitara.jpg",
+        "model": "Vitara",
+        "year": "2013",
+        "brand": "Chevrolet",
+        "price": "30000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/vitara.jpg"
+        ],
+        "kms": "45000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 1,
+        "photo": "../assets/images/nativa.jpg",
+        "model": "Nativa",
+        "year": "2018",
+        "brand": "Mitsubishi",
+        "price": "50000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "2234000",
+        "horsePower": "120",
+        "seats": "4",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 2,
+        "photo": "../assets/images/spark.jpg",
+        "model": "Spark",
+        "year": "2018",
+        "brand": "Chevrolet",
+        "price": "22000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "552000",
+        "horsePower": "4",
+        "seats": "7",
+        "bagSpace": "1.6mts"
+    },
+    {
+        "id": 3,
+        "photo": "../assets/images/clio.jpg",
+        "model": "Clio",
+        "year": "2019",
+        "brand": "Renault",
+        "price": "38000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "20e00",
+        "horsePower": "120",
+        "seats": "75",
+        "bagSpace": "1.8mts"
+    },
+    {
+        "id": 4,
+        "photo": "../assets/images/alaskan.jpg",
+        "model": "Alaskan",
+        "year": "2017",
+        "brand": "Renault",
+        "price": "126000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/alaskan.jpg"
+        ],
+        "kms": "234455",
+        "horsePower": "120",
+        "seats": "2",
+        "bagSpace": "1mts"
+    },
+    {
+        "id": 5,
+        "photo": "../assets/images/aveo.jpg",
+        "model": "Aveo",
+        "year": "2014",
+        "brand": "Chevrolet",
+        "price": "22000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/aveo.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 6,
+        "photo": "../assets/images/patrol.jpg",
+        "model": "Patrol",
+        "year": "2011",
+        "brand": "Nissan",
+        "price": "22000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/patrol.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 7,
+        "photo": "../assets/images/sportero.jpg",
+        "model": "Sportero",
+        "year": "2018",
+        "brand": "Mitsubishi",
+        "price": "128000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/sportero.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 8,
+        "photo": "../assets/images/asx.jpg",
+        "model": "ASX",
+        "year": "2018",
+        "brand": "Mitsubishi",
+        "price": "230000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 9,
+        "photo": "../assets/images/asx.jpg",
+        "model": "ASX",
+        "year": "2016",
+        "brand": "Mitsubishi",
+        "price": "200000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 10,
+        "photo": "../assets/images/nativa.jpg",
+        "model": "Nativa",
+        "year": "2018",
+        "brand": "Other",
+        "price": "50000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 11,
+        "photo": "../assets/images/thundra.jpg",
+        "model": "Thundra",
+        "year": "2018",
+        "brand": "Toyota",
+        "price": "230000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/thundra.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 12,
+        "photo": "../assets/images/camaro.jpg",
+        "model": "Camaro",
+        "year": "2018",
+        "brand": "Chevrolet",
+        "price": "230000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/camaro.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    },
+    {
+        "id": 13,
+        "photo": "../assets/images/camaro.jpg",
+        "model": "Camaro RS",
+        "year": "2018",
+        "brand": "Chevrolet",
+        "price": "230000000",
+        "features": "Vivamus consequat, enim vel fringilla accumsan, dolor orci feugiat eros, quis bibendum mi ipsum eu elit. Sed purus dui, venenatis non magna vel, fermentum hendrerit lorem. Donec non lorem vitae diam pulvinar dignissim sed eget lacus. Sed in leo id lorem commodo ultrices. Curabitur porttitor ipsum vitae hendrerit imperdiet. Curabitur sodales quam metus, eget vestibulum neque consequat ut. Duis eget leo at sem commodo ultrices luctus eget sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi arcu, scelerisque non orci sit amet, pretium commodo est. Maecenas in velit quam.",
+        "gallery": [
+            "../assets/images/vitara.jpg",
+            "../assets/images/nativa.jpg",
+            "../assets/images/spark.jpg",
+            "../assets/images/clio.jpg",
+            "../assets/images/asx.jpg",
+            "../assets/images/camaro.jpg"
+        ],
+        "kms": "2000",
+        "horsePower": "120",
+        "seats": "7",
+        "bagSpace": "1.4mts"
+    }
+]
